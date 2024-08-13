@@ -1,5 +1,17 @@
 :root {
-    
+  --primary-400: hsl(158, 36%, 37%);
+  --primary-100: hsl(30, 38%, 92%);
+  
+  --neutral-600: hsl(212, 21%, 14%);
+  --neutral-400: hsl(228, 12%, 48%);
+  --neutral-100: hsl(0, 0%, 100%);
+
+  --ff-regular: 'Montserrat';
+  --ff-sub: 'Fraunces';
+
+  --fw-bold: 700;
+  --fw-regular: 500;
+
 }
 
 
