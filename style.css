@@ -15,7 +15,6 @@
 }
 
 
-
 *, *::before, *::after {
     box-sizing: border-box;
   }
@@ -60,6 +59,59 @@
     isolation: isolate;
   }
 
+/* General Styling */
+
+body {
+  background-color: var(--primary-100);
+}
+
+.textContainer {
+  font-family: var(--ff-regular);
+  font-weight: var(--fw-regular);
+  font-size: .875rem;
+  background-color: var(--neutral-100);
+
+}
+
+.itemName {
+  color: var(--neutral-400);
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+  font-size: .875rem;
+}
+
+.title {
+  color: var(--neutral-600);
+  font-size: 1.75rem;
+  line-height: 1.7rem;
+  font-weight: var(--fw-bold);
+  font-family: var(--ff-sub);
+}
+
+.subText {
+  color: var(--neutral-400);
+  font-size: .875rem;
+}
+
+.salePrice {
+  color: var(--primary-400);
+  font-weight: var(--fw-bold);
+  font-family: var(--ff-sub);
+  font-size: 1.75rem;
+}
+
+.oldPrice {
+  color: var(--neutral-400);
+}
+
+button {
+  background-color: var(--primary-400);
+  color: var(--neutral-100);
+  font-weight: var(--fw-bold);
+  border: none;
+  border-radius: .4rem;
+}
+  
 
 
 
