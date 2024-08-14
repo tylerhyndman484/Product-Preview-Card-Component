@@ -29,6 +29,7 @@
     3. Add accessible line-height
     4. Improve text rendering
   */
+
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
@@ -112,8 +113,27 @@ button {
   border-radius: .4rem;
 }
   
+/* layout styling */
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
 
 
+.card {
+  margin: 1rem;
+}
+
+.imageHeader img {
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+}
 
 
 
