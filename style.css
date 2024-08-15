@@ -124,7 +124,7 @@ body {
 
 
 .card {
-  margin-inline: 1rem;
+  margin: 1rem;
 }
 
 .imageHeader img {
@@ -133,7 +133,7 @@ body {
 }
 
 .textContainer {
-  padding: 1.25rem;
+  padding: 1.5rem;
   display: grid;
 }
 
@@ -155,6 +155,10 @@ body {
   align-items: center;
   gap: 1.25rem;
   padding-bottom: .75rem;
+}
+
+.prices span {
+  position: absolute;
 }
 
 button {
