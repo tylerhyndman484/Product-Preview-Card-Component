@@ -101,7 +101,7 @@ button {
   color: var(--neutral-100);
   font-weight: var(--fw-bold);
   border: none;
-  border-radius: .4rem;
+  border-radius: .5rem;
 }
 
 
@@ -127,9 +127,22 @@ body {
   margin: 1rem;
 }
 
+@media screen and (min-width: 600px) {
+  .card {
+    display: flex;
+  }
+}
+
 .imageHeader img {
   border-top-left-radius: .5rem;
   border-top-right-radius: .5rem;
+}
+
+@media screen and (min-width: 600px) {
+  .imageHeader img {
+    border-top-right-radius: 0rem;
+    border-bottom-left-radius: .5rem;
+  }
 }
 
 .textContainer {
@@ -165,8 +178,7 @@ button {
   display: flex;
   justify-content: center;
   gap: .75rem;
-  padding: .75rem;
-  margin-bottom: .4rem
+  padding-block: .75rem;
 }
   
 
