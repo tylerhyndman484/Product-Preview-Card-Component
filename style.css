@@ -129,13 +129,15 @@ body {
 
 @media screen and (min-width: 600px) {
   .card {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
 .imageHeader img {
   border-top-left-radius: .5rem;
   border-top-right-radius: .5rem;
+
 }
 
 @media screen and (min-width: 600px) {
@@ -148,6 +150,14 @@ body {
 .textContainer {
   padding: 1.5rem;
   display: grid;
+}
+
+@media screen and (min-width: 600px) {
+  .textContainer {
+    border-bottom-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    min-width: ;
+  }
 }
 
 .itemName {
