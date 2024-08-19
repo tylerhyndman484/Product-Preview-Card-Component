@@ -74,7 +74,7 @@ body {
 
 .title {
   color: var(--neutral-600);
-  font-size: 1.75rem;
+  font-size: 2rem;
   line-height: 1.7rem;
   font-weight: var(--fw-bold);
   font-family: var(--ff-sub);
@@ -134,10 +134,14 @@ body {
   }
 }
 
+.imageHeader {
+  height: 100%;
+}
+
 .imageHeader img {
   border-top-left-radius: .5rem;
   border-top-right-radius: .5rem;
-
+  height: 100%;
 }
 
 @media screen and (min-width: 600px) {
@@ -147,15 +151,23 @@ body {
   }
 }
 
+picture {
+  height: 100%;
+}
+
+
 .textContainer {
   padding: 1.5rem;
   display: grid;
 }
 
+
 @media screen and (min-width: 600px) {
   .textContainer {
     border-bottom-left-radius: 0rem;
     border-bottom-right-radius: 0rem;
+    padding: 2rem;
+    height: 100%;
   }
 }
 
