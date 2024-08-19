@@ -156,7 +156,6 @@ body {
   .textContainer {
     border-bottom-left-radius: 0rem;
     border-bottom-right-radius: 0rem;
-    min-width: ;
   }
 }
 
@@ -178,6 +177,12 @@ body {
   align-items: center;
   gap: 1.25rem;
   padding-bottom: .75rem;
+}
+
+@media screen and (min-width: 600px) {
+  .prices {
+    padding-bottom: 1.25rem;
+  }
 }
 
 .prices span {
