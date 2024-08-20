@@ -125,6 +125,7 @@ body {
 
 .card {
   margin: 1rem;
+  max-width: 600px;
 }
 
 @media screen and (min-width: 600px) {
@@ -193,7 +194,7 @@ picture {
 
 @media screen and (min-width: 600px) {
   .prices {
-    padding-bottom: 1.25rem;
+    /* padding-bottom: 1.25rem; */
   }
 }
 
@@ -206,6 +207,12 @@ button {
   justify-content: center;
   gap: .75rem;
   padding-block: .75rem;
+}
+
+
+button img {
+  max-width: 20px;
+  max-height: 20px;
 }
   
 
