@@ -156,6 +156,12 @@ picture {
   height: 100%;
 }
 
+@media screen and (min-width: 600px) {
+  .title {
+    line-height: 2rem;
+  }
+}
+
 
 .textContainer {
   padding: 1.5rem;
@@ -166,7 +172,8 @@ picture {
 @media screen and (min-width: 600px) {
   .textContainer {
     border-bottom-left-radius: 0rem;
-    border-bottom-right-radius: 0rem;
+    border-bottom-right-radius: .5rem;
+    border-top-right-radius: .5rem;
     padding: 2rem;
     height: 100%;
   }
@@ -207,6 +214,7 @@ button {
   justify-content: center;
   gap: .75rem;
   padding-block: .75rem;
+  align-items: center;
 }
 
 
