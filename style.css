@@ -104,7 +104,10 @@ button {
   border-radius: .5rem;
 }
 
-
+button:hover {
+ background-color: hsl(158, 36%, 20%);
+ cursor: pointer; 
+}
 
   
 /* layout styling */
@@ -152,7 +155,7 @@ body {
   }
 }
 
-picture {
+picture {600
   height: 100%;
 }
 
@@ -219,6 +222,12 @@ button {
 button img {
   max-width: 20px;
   max-height: 20px;
+}
+
+@media screen and (min-width: 600px) {
+  button {
+    padding: .5rem;
+  }
 }
   
 
