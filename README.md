@@ -45,7 +45,7 @@ Users should be able to:
 
 ### What I learned
 
-I had a great chance to get my feet wet with the <picture> tag in HTML so my svg can be dynamic and change with the screen size. I also was able to get my mind thinking about screen reading accessibility by manipulating things to be hidden visably but still read out loud.
+I had a great chance to get my feet wet with the picture tag in HTML so my svg can be dynamic and change with the screen size. I also was able to get my mind thinking about screen reading accessibility by manipulating things to be hidden visably but still read out loud.
 
 ```html
 <picture>
