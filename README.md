@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [(https://github.com/tylerhyndman484/Product-Preview-Card-Component.git)]
-- Live Site URL: [(https://product-preview-card-project-fm.netlify.app/)]
+- Solution URL: [GitHub](https://github.com/tylerhyndman484/Product-Preview-Card-Component.git)
+- Live Site URL: [Netlify](https://product-preview-card-project-fm.netlify.app/)
 
 ## My process
 
